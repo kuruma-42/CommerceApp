@@ -16,6 +16,11 @@
 		02378FC32B82342F007C506A /* Splash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02378FC22B82342F007C506A /* Splash.storyboard */; };
 		02378FC72B8234BC007C506A /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02378FC62B8234BC007C506A /* SplashViewController.swift */; };
 		02378FCD2B849132007C506A /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 02378FCC2B849132007C506A /* Lottie */; };
+		02378FD02B8495A4007C506A /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02378FCF2B8495A4007C506A /* images.xcassets */; };
+		02378FD22B8499C6007C506A /* CPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02378FD12B8499C6007C506A /* CPImage.swift */; };
+		02378FD42B849F39007C506A /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02378FD32B849F39007C506A /* Colors.xcassets */; };
+		02378FD62B84A400007C506A /* CPColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02378FD52B84A400007C506A /* CPColor.swift */; };
+		02378FD82B84A592007C506A /* CPFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02378FD72B84A592007C506A /* CPFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +34,11 @@
 		02378FBA2B8230B9007C506A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02378FC22B82342F007C506A /* Splash.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Splash.storyboard; sourceTree = "<group>"; };
 		02378FC62B8234BC007C506A /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		02378FCF2B8495A4007C506A /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		02378FD12B8499C6007C506A /* CPImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPImage.swift; sourceTree = "<group>"; };
+		02378FD32B849F39007C506A /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		02378FD52B84A400007C506A /* CPColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPColor.swift; sourceTree = "<group>"; };
+		02378FD72B84A592007C506A /* CPFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,7 @@
 		02378FAB2B8230B8007C506A /* CommerceApp */ = {
 			isa = PBXGroup;
 			children = (
+				02378FCE2B84955F007C506A /* DesignSource */,
 				02378FAC2B8230B8007C506A /* AppDelegate.swift */,
 				02378FAE2B8230B8007C506A /* SceneDelegate.swift */,
 				02378FB02B8230B8007C506A /* ViewController.swift */,
@@ -73,6 +84,18 @@
 				02378FC62B8234BC007C506A /* SplashViewController.swift */,
 			);
 			path = CommerceApp;
+			sourceTree = "<group>";
+		};
+		02378FCE2B84955F007C506A /* DesignSource */ = {
+			isa = PBXGroup;
+			children = (
+				02378FCF2B8495A4007C506A /* images.xcassets */,
+				02378FD12B8499C6007C506A /* CPImage.swift */,
+				02378FD32B849F39007C506A /* Colors.xcassets */,
+				02378FD52B84A400007C506A /* CPColor.swift */,
+				02378FD72B84A592007C506A /* CPFont.swift */,
+			);
+			path = DesignSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +165,9 @@
 				02378FB92B8230B9007C506A /* LaunchScreen.storyboard in Resources */,
 				02378FB62B8230B9007C506A /* Assets.xcassets in Resources */,
 				02378FB42B8230B8007C506A /* Main.storyboard in Resources */,
+				02378FD42B849F39007C506A /* Colors.xcassets in Resources */,
 				02378FC32B82342F007C506A /* Splash.storyboard in Resources */,
+				02378FD02B8495A4007C506A /* images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02378FD62B84A400007C506A /* CPColor.swift in Sources */,
 				02378FB12B8230B8007C506A /* ViewController.swift in Sources */,
 				02378FAD2B8230B8007C506A /* AppDelegate.swift in Sources */,
+				02378FD82B84A592007C506A /* CPFont.swift in Sources */,
+				02378FD22B8499C6007C506A /* CPImage.swift in Sources */,
 				02378FAF2B8230B8007C506A /* SceneDelegate.swift in Sources */,
 				02378FC72B8234BC007C506A /* SplashViewController.swift in Sources */,
 			);
